@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(92, 20, 102);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.login_frm{
+    display: flex;
+    justify-content: center;
+    padding: 6%;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 370px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px rgb(209, 14, 79);
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label{
+    padding-left: 16px;
+    opacity: 0.75;
+}
+
+input{
+    display: flex;
+    border-radius: 50px;
+    border-style: groove;
+    margin-top: 8px;
+    width: 250px;
+    height: 30px;
+    background-color: plum;
+    border-color: black;
+    box-shadow: 1px 2px 6px rgb(7, 7, 7);
+}
+
+input:focus{
+    opacity: 0.7;
+}
+
+button{
+    border-radius: 50px;
+    color: rgb(251, 251, 252);
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(37, 21, 53);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 40%;
+    height: 25px;
+    margin-top: 1%;
+    margin-left: 30%;
+
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.signup{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(20, 20, 168);
+    margin-left: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.signup:hover{
+    opacity: 0.8;
+    background-color: rgb(90, 87, 87);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

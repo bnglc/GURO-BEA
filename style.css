@@ -1,0 +1,580 @@
+body{
+    background-color: rgb(56, 30, 56);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-size: cover;
+
+
+}
+
+.header{
+    background-color: rgb(54, 52, 52);
+    width: 110%;
+    height: 80px;
+    margin-top: -1%;
+    margin-left: -1%;
+
+}
+
+.logo img{
+    width: 6%;
+    margin-top: -10.5%;
+    margin-left: 5%;
+}
+
+.name p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: -4%;
+}
+
+.headlist{
+    margin-top: -6.3%;
+    margin-left: 45%;
+
+}
+
+.headlist ul{
+    list-style-type: none;
+    display: flex;
+    color: white;
+
+
+}
+
+.headlist li{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 95%;
+    padding: 7%;
+    text-shadow: 1px 2px 4px rgb(22, 19, 19);
+
+}
+
+.bttn button{
+    border-radius: 20px;
+    background-color: rgb(142, 84, 150);
+    color: white;
+    padding: 3px 20px;
+    border-color: rgb(22, 21, 22);
+    margin: -8% 8% 0 80%;
+    box-shadow: 1px 2px 6px rgb(24, 23, 23);
+
+}
+
+.bttn li{
+    margin-top: -7.5%;
+    margin-left: 45%;
+}
+
+.bttn a{
+    color: white;
+    text-decoration: none;
+}
+.bttn a:hover{
+    color: plum;
+}
+
+.header2{
+    background-color: rgb(105, 65, 121);
+    width: 110%;
+    height: 49px;
+    margin-left: -1%;
+    margin-top: 2%;
+
+}
+
+.header2 ul{
+    list-style-type: none;
+    display: flex;
+    color: white;
+
+}
+
+.header2 li{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 90%;
+    padding: 3%;
+    text-shadow: 1px 2px 4px rgb(22, 19, 19);
+    margin-top: -2%;
+
+
+}
+
+input{
+    background-color: rgb(150, 97, 135);
+    text-shadow: 1px 2px 4px rgb(22, 19, 19);
+    border-radius: 20px;
+    margin-left: 1%;
+    margin-top: -3%;
+    padding: 5px;
+}
+.search{
+    margin-top: -2.7%;
+    margin-left: 69%;
+    font-weight: lighter;
+    position: relative;
+    width: 100%;
+}
+
+.search span{
+    margin-left: 7%;
+    position: absolute;
+    left: 4%;
+    margin-top: 0.020%;
+    
+}
+
+#searching{
+    font-weight: lighter;
+    color: rgb(255, 254, 252);
+}
+
+::placeholder{
+    color: white;
+    font-weight: lighter;
+}
+
+
+#slideshoer{
+    margin-top: 1%;
+    margin-left: -1%;
+}
+
+#slideshoer img{
+    width: 110%;
+    height: 500px;
+    display: none;
+}
+
+#slideshoer img.first{
+    display: block;
+}
+
+
+.papillion p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 270%;
+    margin-top: -30%;
+    margin-left: 8%;
+    font-weight: bolder;
+    text-shadow: 1px 2px 4px rgb(22, 19, 19);
+}
+
+.lion p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 270%;
+    margin-left: 8%;
+    margin-top: -2%;
+    font-weight: bolder;
+    text-shadow: 1px 2px 4px rgb(22, 19, 19);
+}
+
+.paps p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 270%;
+    margin-left: 8%;
+    margin-top: -2%;
+    font-weight: bolder;
+    text-shadow: 1px 2px 4px rgb(22, 19, 19);
+}
+
+.papi p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 190%;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+    margin-left: 8%;
+    margin-top: -3%;
+}
+
+.pappy p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 190%;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+    margin-left: 8%;
+    margin-top: -2%;
+}
+
+.reg{
+    margin-left: 11.5%;
+    margin-top: -1.5%;
+}
+
+.reg button{
+    border-radius: 15px;
+    background-color: rgb(37, 15, 37);
+    color: white;
+    width: 10%;
+    height: 30px;
+    border-color: rgb(86, 21, 88);
+}
+
+.reg button:hover{
+    background-color: rgb(248, 179, 195);
+}
+
+.boxer1{
+    background-color: rgb(223, 80, 135);
+    width: 22%;
+    height: 390px;
+    margin-top: 13%;
+    border-radius: 20px;
+    margin-left: 1%;
+    box-shadow: 1px 2px 6px rgb(24, 23, 23);
+}
+
+.boxer1 img{
+    width: 100%;
+    height: 52%;
+    margin-left: -0.01%;
+    border-radius: 20px;
+}
+
+.boxer1 h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.boxer1 button{
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(70, 23, 70);
+    width: 40%;
+    height: 30px;
+    border-color: palevioletred;
+    margin-left: 5%;
+    margin-top: 1.8%;
+}
+
+.boxer1 button:hover{
+    background-color: rgb(98, 61, 133);
+}
+
+.boxer1 p{
+    color: white;
+    font-size: 100%;
+    margin-left: 3%;
+    margin-right: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+}
+.boxer2{
+    background-color: rgb(223, 80, 135);
+    width: 22%;
+    height: 390px;
+    margin-top: -25.9%;
+    border-radius: 20px;
+    margin-left: 26%;
+    box-shadow: 1px 2px 6px rgb(24, 23, 23);
+}
+
+.boxer2 h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.boxer2 p{
+    color: white;
+    font-size: 100%;
+    margin-left: 4%;
+    margin-right: 1%;
+    margin-top: -2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+}
+
+.boxer2 button{
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(70, 23, 70);
+    width: 40%;
+    height: 30px;
+    border-color: palevioletred;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.boxer2 button:hover{
+    background-color: rgb(98, 61, 133);
+}
+
+.boxer2 img{
+    width: 100%;
+    margin-left: -0.001%;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.boxer3{
+    background-color: rgb(223, 80, 135);;
+    width: 22%;
+    height: 390px;
+    margin-top: -25.9%;
+    border-radius: 20px;
+    margin-left: 51.3%;
+    box-shadow: 1px 2px 6px rgb(24, 23, 23);
+}
+
+.boxer3 img{
+    width: 100%;
+    margin-left: -0.001%;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.boxer3 h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.boxer3 p{
+    color: white;
+    font-size: 100%;
+    margin-left: 4%;
+    margin-right: 1%;
+    margin-top: -2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+}
+
+.boxer3 button{
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(70, 23, 70);
+    width: 40%;
+    height: 30px;
+    border-color: palevioletred;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.boxer3 button:hover{
+    background-color: rgb(98, 61, 133);
+}
+
+.boxer4{
+    background-color: rgb(223, 80, 135);
+    width: 22%;
+    height: 390px;
+    margin-top: -26.3%;
+    border-radius: 20px;
+    margin-left: 76.5%;
+    box-shadow: 1px 2px 6px rgb(24, 23, 23);
+}
+
+.boxer4 img{
+    width: 100%;
+    margin-left: -0.001%;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.boxer4 h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.boxer4 p{
+    color: white;
+    font-size: 100%;
+    margin-left: 4%;
+    margin-right: 1%;
+    margin-top: -2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+}
+
+.boxer4 button{
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(70, 23, 70);
+    width: 40%;
+    height: 30px;
+    border-color: palevioletred;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.boxer4 button:hover{
+    background-color: rgb(98, 61, 133);
+}
+
+.ytvid{
+    background-color: rgb(223, 80, 135);
+    border-radius: 20px;
+    width: 50%;
+    height: 400px;
+    margin-top: 5%;
+    margin-left: 1.5%;
+    box-shadow: 1px 2px 6px rgb(24, 23, 23);
+
+}
+
+.ytvid iframe{
+    border-radius: 20px;
+    margin-left: 0.10%;
+    border-color: palevioletred;
+    width: 100%;
+}
+
+.mapa{
+    background-color: rgb(223, 80, 135);
+    border-radius: 20px;
+    width: 45%;
+    height: 400px;
+    margin-top: -26.5%;
+    margin-left: 53%;
+    box-shadow: 1px 2px 6px rgb(24, 23, 23);
+}
+
+.mapa iframe{
+    border-radius: 20px;
+    margin-left: 0.10%;
+    border-color: palevioletred;
+    width: 99.7%;
+    height: 400px;
+}
+
+.tiil{
+    background-color: rgb(223, 80, 135);
+    width: 96.5%;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 1.5%;
+    margin-top: 4%;
+    box-shadow: 1px 2px 6px rgb(24, 23, 23);
+}
+
+.content h1{
+    color: white;
+    font-size: 190%;
+    margin-left: 4%;
+    margin-top: -19.2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+}
+
+.fa{
+    padding: 20px;
+    font-size: 20px;
+    width: -20%;
+    text-align: center;
+    text-decoration: none;
+    margin: 60px 5px;
+    border-radius: 30px;
+    margin-left: 1%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: rgb(53, 26, 53);
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+}
+  
+.fa-twitter {
+    color: rgb(63, 29, 63);
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+}
+
+.fa-google {
+    color: rgb(65, 33, 65);
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+}
+
+.fa-youtube {
+    color: rgb(75, 40, 75);
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+}
+  
+.fa-instagram {
+    color: rgb(66, 31, 66);
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+}
+
+.logoer img{
+    width: 20%;
+    margin-top: -1%;
+}
+
+.text1 p{
+    color: white;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -13%;
+    margin-left: 18%;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+}
+
+.text2 p{
+    color: white;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 18%;
+    text-shadow: 1px 3px 4px rgb(22, 19, 19);
+}
+
+.rights p{
+    color: white;
+    margin-left: 45%;
+    font-size: 80%;
+    margin-top: 4%;
+}
+
+.txt p{
+    color: white;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 82%;
+    margin-top: -17%;
+}
+
+.info p{
+    color: white;
+    font-size: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 82%;
+    margin-top: 1%;
+}
+
+.inform p{
+    color: white;
+    font-size: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 82%;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papillion Dance Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!--FIRST HEADER-->
+
+  <div class="header">
+  </div>
+
+  <div class="logo">
+    <img src="studio logo.png">
+  </div>
+
+  <div class="name">
+    <p>Papillion Dance Studio</p>
+  </div>
+
+  <!--header list-->
+  
+  <div class="headlist">
+    <ul>
+      <li><a>Home</a></li>
+      <li><a>About Us</a></li> 
+      <li><a>Help & Support</a></li> 
+    </ul>
+  </div>
+
+  <div class="bttn">
+    <li><a href="log in.html"><button>Log In</button></a></li>
+  </div>
+  
+  <!--second header-->
+
+  <div class="header2">
+    <ul>
+      <li><a>Registration</a></li>
+      <li><a>Information</a></li>
+      <li><a>Guide</a></li>
+    </ul>
+  </div>
+
+  <div class="search">
+    <span>&#128269;</span>
+
+    <input type="text" id="searching" placeholder="Search...">
+  </div>
+
+   <!--slideshow-->
+
+   <div id="slideshoer">
+    <img src="stud.jpeg" class="first">
+    <img src="dancers.jpeg">
+    <img src="recept.jpeg">
+   </div>
+
+   <!--funtion for the slideshow-->
+
+   <script>
+    var slideshow = 0;
+    const slides = document.querySelectorAll('#slideshoer img');
+
+    function showNextSlide () {
+      slides[slideshow].classList.remove('first');
+      slideshow = (slideshow + 1) % slides.length;
+      slides[slideshow].classList.add('first');
+    }
+
+    setInterval(showNextSlide, 3000);
+  
+   </script>
+
+   <!--content inside-->
+
+   <div class="papillion">
+    <p>DANCE IS</p>
+   </div>
+
+   <div class="lion">
+    <p>THE HIDDEN</p>
+   </div>
+
+   <div class="paps">
+    <p>LANGUAGE</p>
+   </div>
+
+   <div class="papi">
+    <p>OF THE SOUL</p>
+   </div>
+
+   <div class="pappy">
+    <p>AND THE BODY</p>
+   </div>
+
+   <div class="reg">
+    <button>Register Now</button>
+   </div>
+
+   <!--third layer-->
+
+   <div class="boxer1"> 
+      <img src="hub.jpeg">
+    <h1>Register now for 
+        a slot in our
+        studio
+    </h1>
+    <p> We are open for room
+      reservation for all the 
+      dancers out there. Just
+      click the registration button.
+    </p>
+    <button>Register Now</button>
+   </div>
+
+   <div class="boxer2">
+    <img src="dancer.jpeg">
+    <h1>We are open for a dance
+      class registration.
+    </h1>
+    <p>Catering a dance class
+      room reservation. Your
+      favorite dance class
+      management might have
+      their reservation here.
+    </p>
+    <button>Check Now</button>
+   </div>
+
+   <div class="boxer3">
+    <img src="rpt.jpeg">
+    <h1>Accommodate all future
+      customers with a smile.
+    </h1>
+    <p>Our staff will accommodate you
+      wholeheartedly. A professional
+      and classy workers ready to serve 
+      you all
+
+    </p>
+    <button>Visit Now</button>
+   </div>
+
+   <div class="boxer4">
+    <img src="typing.jpg">
+    <h1>You can do online
+      registration in our
+      website.
+    </h1>
+    <p>Register and do your
+      reservation at home. We 
+      upgraded our accommodation
+      for all of you.
+    </p>
+    <button>Register Now</button>
+   </div>
+
+   <div class="ytvid">
+    <iframe width="590" height="394" src="https://www.youtube.com/embed/TjLtDGn6Gjk">
+    </iframe>
+   </div>
+
+   <div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25911.114416434095!2d7.39890253464345!3d46.950481839177826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39c0d43a1b77%3A0xcb555ffe0457659a!2sBern%2C%20Switzerland!5e0!3m2!1sen!2sph!4v1732719141964!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+
+   <div class="tiil">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-youtube"></a>
+
+   </div>
+
+   <div class="content">
+    <h1>Follow Us</h1>
+   </div>
+
+   <div class="logoer">
+    <img src="studio logo.png">
+   </div>
+
+   <div class="text1">
+    <p>Contact us: 0977-777-7777</p>
+   </div>
+
+   <div class="text2">
+    <p>Thank you for visiting our website</p>
+   </div>
+
+   <div class="rights">
+    <p>© 2024 Papillion Dance Studio. All rights reserved</p>
+   </div>
+
+   <div class="txt">
+    <p>Contact Us</p>
+   </div>
+
+   <div class="info">
+    <p>www.papillionstudio.com</p>
+   </div>
+
+   <div class="inform">
+    <p>Bern, Switzerland</p>
+   </div>
+
+</body>
+</html>
